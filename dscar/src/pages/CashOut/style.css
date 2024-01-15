@@ -1,0 +1,12 @@
+.compras-container {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  justify-content: center;
+  background-color: bisque;
+}
+.compras-container h1 {
+  font-size: 36px;
+  color: rgb(165, 142, 42);
+  text-align: center;
+}

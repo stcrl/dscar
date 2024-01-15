@@ -1,0 +1,125 @@
+.catalog-container {
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+  font-size: 16px;
+}
+#btn {
+  width: 300px;
+  height: 90px;
+}
+.catalog-card {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  border-radius: 10px;
+  width: 259px;
+  height: 347px;
+  background-color: #ededed;
+  margin: 10px 15px 0px 30px;
+  padding: 30px 15px;
+  color: unset;
+}
+.catalog-content-container h1 {
+  font-size: 1.3em;
+  color: #000000;
+
+  margin-top: 20px;
+  text-align: center;
+  line-height: 25.78px;
+  color: unset;
+}
+.catalog-content-container h5 {
+  color: #585858;
+  font-size: 14px;
+  line-height: 16.41px;
+  margin-top: 20px;
+  text-align: center;
+  color: unset;
+  font-weight: 400;
+  font-style: italic;
+}
+.catalog-image-container {
+  margin-top: -10px;
+}
+.catalog-image-container png {
+  width: 100%;
+  height: auto;
+}
+.catalog-content-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.catalog-content-bottom-button {
+  background-color: #00285f;
+  color: #fff;
+  border-radius: 5px;
+  width: 230.93px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+.catalog-content-bottom h3 {
+  color: #585858;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+  margin-top: 10px;
+}
+@media (min-width: 576px) {
+  .catalog-card {
+    width: 229px;
+    margin: 10px 5px 0px 22px;
+    padding: 30px 0px;
+  }
+  .catalog-container {
+    padding-left: 15px;
+    margin-left: 20px;
+  }
+  .catalog-content-bottom-button {
+    width: 180px;
+    margin-left: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .catalog-card {
+    width: 300px;
+    padding-left: 20px;
+    margin-left: 30px;
+  }
+  .catalog-container {
+    padding: 15px;
+  }
+  .catalog-content-bottom-button {
+    width: 228px;
+    margin-left: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .catalog-container {
+    justify-content: space-evenly;
+    padding-left: 20px;
+  }
+  .catalog-card {
+    margin-left: 25px;
+    width: 240px;
+    padding-left: 10px;
+  }
+  .catalog-content-bottom-button {
+    width: 190px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .catalog-container {
+    justify-content: space-evenly;
+    margin-left: 200px;
+  }
+  .catalog-card {
+    margin-left: 100px;
+  }
+}
